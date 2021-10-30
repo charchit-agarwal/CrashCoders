@@ -5,8 +5,8 @@
 
 #navbar ul li a{
     font-size: 1rem;
-    padding: 1px 5px;
-    padding-bottom: 16px;
+    padding: 1px 10px;
+    padding-bottom: 13px;
 }
 #navbar ul li a:hover{
     color: black;
@@ -21,8 +21,8 @@
     margin: -4px 18px;
 }
 #logo img {
-    height: 47px;
-    margin: 1px -6px;
+    height: 48px;
+    margin: -1px -6px;
 }
 #home::before{
     height: 480px; 
@@ -36,9 +36,10 @@
     font-size: 13px;
 }
 #services ul li a {
+    text-align: center;
     color: green;
     display: block;
-    padding: 0px 125px;
+    padding: 15px 110px;
     border-radius: 20px;
     text-decoration: none;
     margin: 10px -32px;
@@ -48,11 +49,43 @@
     flex-direction: column;
     margin: -35px;
 }
+#lolss {
+    height: 100%;
+   width: 80%;
+}
+#lolk{
+    height: 100% ;
+    width: 100%
+}
+#lolks{
+    height: 100%;
+    width: 100%
+   }
+ 
+ #lols {
+    height: 100%;
+   width: 100%
 
+}
+ #lol {
+    height:100%;
+   width: 100%
+  }
+  #contact h2 { 
+    list-style: none;
+    font-size: 1.6rem;
+}
+  #contact ul li a { 
+    list-style: none;
+    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 15px;
+    font-size: 1.6rem;
+}
 #services .box { 
     text-align: center;
-    padding: 14px;
-    margin: 2px 34px; 
+    justify-content: center;
+    padding: 24px 50px;
+    margin: 35px 44px; 
     margin-bottom: 38px;
     margin-top: 38px;
     /* height: 700px; */
@@ -97,10 +130,40 @@
     content: "";
     position: absolute;
     background: url('background.jpg') center center/cover;
-    height: 1645px;
+    height: 2960px;
     /* top:0px;
     left:0px; */
     width: 100%;
     z-index: -1;
     opacity:.71;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+    font-size: 0.5rem;
+    width: 50%;
+}
+#contact-box textarea{
+    width: 100px;
+    padding: 5.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+#contact ul li a{
+   
+    font-size: 1.7rem;
+    font-family: monospace ;
+    color: rgb(6, 124, 108);
+    display: block;
+    padding: 14px 50px 5px 20px;
+    border: 2px solid red;
+    width: 50px auto;
+    border-radius: 30px;
+    width: auto;
+    text-align: center;
+    background-color: lightyellow;
+    text-decoration:solid rgb(92, 84, 3)  ;
+    margin: 30px -32px;
 }
